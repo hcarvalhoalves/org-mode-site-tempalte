@@ -1,3 +1,5 @@
+(add-to-list 'load-path "org-tufte.el")
+(require 'org-tufte)
 (require 'ox-publish)
 
 (load-file "./config.el")
